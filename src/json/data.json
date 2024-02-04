@@ -1,0 +1,106 @@
+{
+  "users": {
+    "hyunoh2": {
+      "nickname": "Eric Jo",
+      "profile": "https://avatars.githubusercontent.com/u/61579225?v=4",
+      "chats": ["a000001", "a000002", "a000003", "a000005", "a000006", "a000007"]
+    },
+    "minji1989": {
+      "nickname": "민지",
+      "profile": "https://avatars.githubusercontent.com/u/61579224?v=4",
+      "chats": ["a000001", "a000002", "a000003"]
+    },
+    "jun1": {
+      "nickname": "내이름은준",
+      "profile": "https://avatars.githubusercontent.com/u/61579223?v=4",
+      "chats": ["a000001", "a000002", "a000003"]
+    }
+  },
+
+  "rooms": {
+    "a000001": {
+      "title": "병아리모임",
+      "profile": "https://avatars.githubusercontent.com/u/61579215?v=4",
+      "users": ["hyunoh2", "jun1"]
+    },
+    "a000002": {
+      "title": "개발스터디",
+      "profile": "https://avatars.githubusercontent.com/u/61579205?v=4",
+      "users": ["hyunoh2", "minji1989"]
+    },
+    "a000003": {
+      "title": "민지",
+      "profile": "https://avatars.githubusercontent.com/u/61539105?v=4",
+      "users": ["hyunoh2", "minji1989", "jun1"]
+    },
+    "a000004": {
+      "title": "채팅방1",
+      "profile": "https://avatars.githubusercontent.com/u/61549105?v=4",
+      "users": ["minji1989", "jun1"]
+    },
+    "a000005": {
+      "title": "채팅방2",
+      "profile": "https://avatars.githubusercontent.com/u/61559105?v=4",
+      "users": ["hyunoh2", "minji1989", "jun1"]
+    },
+    "a000006": {
+      "title": "채팅방3",
+      "profile": "https://avatars.githubusercontent.com/u/61569105?v=4",
+      "users": ["hyunoh2", "minji1989", "jun1"]
+    },
+    "a000007": {
+      "title": "채팅방4",
+      "profile": "https://avatars.githubusercontent.com/u/61589115?v=4",
+      "users": ["hyunoh2", "minji1989"]
+    }
+  },
+
+  "messages": {
+    "a000001": [
+      {
+        "id": "M000001",
+        "type": "message",
+        "user": "minji1989",
+        "timestamp": 1459361875666,
+        "message": "안녕하세요?"
+      },
+      {
+        "id": "M000002",
+        "type": "message",
+        "user": "hyunoh2",
+        "timestamp": 1459371875666,
+        "message": "굿모닝!!"
+      },
+      {
+        "id": "M000004",
+        "type": "message",
+        "user": "jun1",
+        "timestamp": 1459372875666,
+        "message": "hihi~~"
+      }
+    ],
+    "a000002": [
+      {
+        "id": "M000001",
+        "type": "message",
+        "user": "minji1989",
+        "timestamp": 1459361875666,
+        "message": "안녕하세요?"
+      },
+      {
+        "id": "M000002",
+        "type": "message",
+        "user": "hyunoh2",
+        "timestamp": 1459371875666,
+        "message": "굿모닝!!"
+      },
+      {
+        "id": "M000004",
+        "type": "message",
+        "user": "jun1",
+        "timestamp": 1459372875666,
+        "message": "hihi~~"
+      }
+    ]
+  }
+}
