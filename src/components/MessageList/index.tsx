@@ -8,7 +8,7 @@ const MessageList = () => {
   return (
     <Container>
       {messages.map((message, index) => (
-        <div key={index}>{message.message}</div>
+        <div key={index}>{new Date(message.timestamp).toString()} / {message.user} : {message.message}</div>
       ))}
     </Container>
   );
