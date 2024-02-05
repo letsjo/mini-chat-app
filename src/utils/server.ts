@@ -79,6 +79,8 @@ export const createRoomApi = async (roomName: string, userId: string): Promise<R
     {
       type: 'notice',
       id: uuid(),
+      user: '📢 NOTICE',
+      timestamp: new Date().toString(),
       message: '방이 생성되었습니다.',
     },
     {
